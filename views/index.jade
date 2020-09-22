@@ -1,0 +1,19 @@
+extends layout
+
+block navbar
+  nav
+    ul
+      li
+        a(href="./") Dashboard
+      li
+        a(href="./logs") Logs
+      li
+        a(href="./trades") Trades
+      li
+        a(href="./setttings") Settings
+
+block content
+  main
+    h1= title
+    p USER : #{user}
+    
